@@ -109,30 +109,30 @@ p {
     }
 }
 
-.about-section {
+.content {
     padding: 160px 20px;
     text-align: center;
 }
 
-.about-section h1 {
+.content h1 {
     font-size: 64px;
     line-height: 80px;
 
 }
 
-.about-section h2 {
+.content-container h2 {
     font-size: 18px;
     font-family: var(--branding-color);
 
 }
 
-.about-section img {
+.content-container img {
     border-radius: 10px;
     height: 560px;
     width: 560px;
 }
 
-.about-section-content {
+.content {
     margin: 30px;
 }
 
