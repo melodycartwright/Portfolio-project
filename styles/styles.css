@@ -98,10 +98,7 @@ p {
         font-size: 44px;
     }
 
-    .project-description {
-        padding: 0;
-        text-align: center;
-    }
+ 
 
     .front {
 
@@ -110,31 +107,40 @@ p {
 }
 
 .content {
-    padding: 160px 20px;
+    padding: 0;
     text-align: center;
+ 
 }
+
 
 .content h1 {
     font-size: 64px;
     line-height: 80px;
+    
 
 }
 
-.content-container h2 {
+.content h2 {
     font-size: 18px;
-    font-family: var(--branding-color);
+    font-family: var(--default-font-family);
 
 }
-
+.content h3{
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    
+}
+.content p{ font-size: 14px;
+}
 .content-container img {
     border-radius: 10px;
     height: 560px;
     width: 560px;
+    
 }
 
-.content {
-    margin: 30px;
-}
+
+
 
 .work-contact {
     font-family: var(--heading-font-family);
