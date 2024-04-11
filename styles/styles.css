@@ -43,7 +43,7 @@ footer .contact-box{
     padding: 30px 120px;
     border-radius: 10px;
 }
-footer .contact-box h4{ font-size: 48px;}
+footer .contact-box h3{ font-size: 48px;}
 footer.contact-box p{margin: 0;}
 footer .email-link {
     font-size: 24px;
@@ -85,7 +85,7 @@ footer .social-links a:hover{
 .front {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .front p {
@@ -135,7 +135,7 @@ padding:15px}
 }
 
 .project-description {
-    padding: 120px 60px;
+    padding: 80px 60px;
 }
 
 @media (max-width:960px) {
@@ -154,7 +154,7 @@ padding:15px}
 
         padding: 80px 20px;
     }
-
+.project-description{padding: 0px;}
     
 }
 
@@ -200,32 +200,7 @@ padding:15px}
 
 
 
-.work-contact {
-    font-family: var(--heading-font-family);
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 200px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 
-.work-inquiry a {
-    width: Fixed (200px);
-    height: Hug (64px);
-    margin-top: -260px;
-    margin-left: 800px;
 
-    padding: 18px, 30px, 18px, 30px;
-    border-radius: 4px;
-    gap: 10px;
 
-}
 
-.work-inquiry {
-    background: var(--secondary-color);
-    width: 1160px;
-    height: 200px;
-    top: 1003px;
-    margin: 0 auto;
-    border-radius: 20px;
-}
