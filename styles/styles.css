@@ -34,12 +34,54 @@ p {
     font-size: 16px;
     line-height: 30px;
 }
-.nav-link{
+
+footer {
+    margin: 60px 0px;
+}
+footer .contact-box{
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box h4{ font-size: 48px;}
+footer.contact-box p{margin: 0;}
+footer .email-link {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+transition: all 100ms ease-in-out;
+
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
    
-margin: 10px;}
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    font-size: 18px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: white;
+    background: var(--branding-color);
+    
+}
+.nav-link {
+
+    margin: 10px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
     color: var(--branding-color);
 }
+
 .front {
     background: var(--secondary-color);
     text-align: center;
@@ -59,6 +101,9 @@ margin: 10px;}
     line-height: 1.5;
     font-size: 24px;
 }
+.home-buttons a{ margin:15px;
+padding:15px}
+
 
 .btn-branding {
     background: var(--branding-color);
@@ -103,25 +148,29 @@ margin: 10px;}
         font-size: 44px;
     }
 
- 
+
 
     .front {
 
         padding: 80px 20px;
     }
+
+    
 }
+
+
 
 .content {
     padding: 0;
-   text-align: center;
- 
+    text-align: center;
+
 }
 
 
 .content h1 {
     font-size: 64px;
     line-height: 80px;
-    
+
 
 }
 
@@ -130,18 +179,22 @@ margin: 10px;}
     font-family: var(--default-font-family);
 
 }
-.content h3{
+
+.content h3 {
     font-size: 24px;
     font-family: var(--default-font-family);
-    
+
 }
-.content p{ font-size: 14px;
+
+.content p {
+    font-size: 14px;
 }
+
 .content-container img {
     border-radius: 10px;
     height: 560px;
     width: 560px;
-    
+
 }
 
 
@@ -151,7 +204,7 @@ margin: 10px;}
     font-family: var(--heading-font-family);
     font-size: 46px;
     font-weight: 700;
-    line-height:200px;
+    line-height: 200px;
     letter-spacing: 0em;
     text-align: left;
 }
@@ -161,11 +214,11 @@ margin: 10px;}
     height: Hug (64px);
     margin-top: -260px;
     margin-left: 800px;
-    
+
     padding: 18px, 30px, 18px, 30px;
     border-radius: 4px;
     gap: 10px;
-  
+
 }
 
 .work-inquiry {
