@@ -34,7 +34,12 @@ p {
     font-size: 16px;
     line-height: 30px;
 }
-
+.nav-link{
+   
+margin: 10px;}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--branding-color);
+}
 .front {
     background: var(--secondary-color);
     text-align: center;
@@ -108,7 +113,7 @@ p {
 
 .content {
     padding: 0;
-    text-align: center;
+   text-align: center;
  
 }
 
