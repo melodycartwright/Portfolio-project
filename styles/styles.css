@@ -138,23 +138,24 @@ padding:15px}
     padding: 80px 60px;
 }
 
-@media (max-width:960px) {
+@media (max-width:900px) {
     h1 {
         font-size: 44px;
-        line-height: 2;
+        line-height: 1.5;
     }
 
     h2 {
         font-size: 44px;
     }
-
+h4{ font-size: 26px;}
 
 
     .front {
 
         padding: 80px 20px;
     }
-.project-description{padding: 0px;}
+.project-description{padding: 0px;
+text-align: center;}
     
 }
 
