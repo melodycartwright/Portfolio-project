@@ -1,6 +1,6 @@
 :root {
-    --branding-color: #6c63ff;
-    --secondary-color: #f9f7fe;
+    --branding-color: #A6395E;
+    --secondary-color: #E6DBD5;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
 }
@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: black;
+    color: #A6395E;
     font-family: var(--heading-font-family);
     font-weight: bold;
 }
@@ -38,24 +38,32 @@ p {
 footer {
     margin: 60px 0px;
 }
-footer .contact-box{
+
+footer .contact-box {
     background: var(--secondary-color);
     padding: 30px 120px;
     border-radius: 10px;
 }
-footer .contact-box h3{ font-size: 48px;}
-footer.contact-box p{margin: 0;}
+
+footer .contact-box h3 {
+    font-size: 48px;
+}
+
+footer.contact-box p {
+    margin: 0;
+}
+
 footer .email-link {
     font-size: 24px;
     text-decoration: none;
-    color: black;
-transition: all 100ms ease-in-out;
+    color: #A6395E;
+    transition: all 100ms ease-in-out;
 
 }
 
 footer .email-link:hover {
     color: var(--branding-color);
-   
+
 }
 
 footer .social-links a {
@@ -67,11 +75,13 @@ footer .social-links a {
     border-radius: 50%;
     transition: all 100ms ease-in-out;
 }
-footer .social-links a:hover{
+
+footer .social-links a:hover {
     color: white;
     background: var(--branding-color);
-    
+
 }
+
 .nav-link {
 
     margin: 10px;
@@ -92,7 +102,7 @@ footer .social-links a:hover{
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-    color: #272142;
+    color: #A6395E;
 }
 
 .front h2 {
@@ -101,8 +111,11 @@ footer .social-links a:hover{
     line-height: 1.5;
     font-size: 24px;
 }
-.home-buttons a{ margin:15px;
-padding:15px}
+
+.home-buttons a {
+    margin: 15px;
+    padding: 15px
+}
 
 
 .btn-branding {
@@ -147,16 +160,22 @@ padding:15px}
     h2 {
         font-size: 44px;
     }
-h4{ font-size: 26px;}
+
+    h4 {
+        font-size: 26px;
+    }
 
 
     .front {
 
         padding: 80px 20px;
     }
-.project-description{padding: 0px;
-text-align: center;}
-    
+
+    .project-description {
+        padding: 0px;
+        text-align: center;
+    }
+
 }
 
 
@@ -193,15 +212,35 @@ text-align: center;}
 
 .content-container img {
     border-radius: 10px;
-    height: 560px;
-    width: 560px;
+    height: 500px;
+    width: 500px;
 
 }
 
+.yoga img {
 
+    height: 450px;
+    width: 500px;
+}
 
+.weatherapp img {
 
+    height: 450px;
+    width: 500px;
+}
 
+.worldclock img {
 
+    height: 450px;
+    width: 500px;
+}
 
+.vegetarian img {
+margin-top: 50px;
 
+    height: 450px;
+    width: 500px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;}
