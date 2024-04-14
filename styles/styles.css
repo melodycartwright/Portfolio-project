@@ -148,7 +148,7 @@ footer .social-links a:hover {
 }
 
 .project-description {
-    padding: 80px 60px;
+    padding: 60px 60px;
 }
 
 @media (max-width:900px) {
@@ -236,7 +236,8 @@ footer .social-links a:hover {
 }
 
 .vegetarian img {
-margin-top: 50px;
+margin-top: 60px;
+margin-left: 70px;
 
     height: 450px;
     width: 500px;
@@ -244,3 +245,10 @@ margin-top: 50px;
 .img-fluid {
     max-width: 100%;
     height: auto;}
+    .mel img{
+        margin-top: 50px;
+        margin-left: 70px;
+    
+        height: 450px;
+        width: 450px;
+    }
