@@ -190,6 +190,7 @@ footer .social-links a:hover {
 .content h1 {
     font-size: 64px;
     line-height: 80px;
+    padding-top: 10px;
 
 
 }
@@ -236,19 +237,22 @@ footer .social-links a:hover {
 }
 
 .vegetarian img {
-margin-top: 60px;
-margin-left: 70px;
+    margin-top: 60px;
+    margin-left: 70px;
 
     height: 450px;
     width: 500px;
 }
+
 .img-fluid {
     max-width: 100%;
-    height: auto;}
-    .mel img{
-        margin-top: 50px;
-        margin-left: 70px;
-    
-        height: 450px;
-        width: 450px;
-    }
+    height: auto;
+}
+
+.mel img {
+    margin-top: 10%;
+    margin-left: 70px;
+
+    height: 450px;
+    width: 450px;
+}
